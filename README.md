@@ -9,6 +9,10 @@ Team 15
 
 JACKED
 
+### Company Owners
+
+pamirhabib, Dac-cm, angusleung100, Troll411, canadiancakes
+
 ### Slogan
 
 
