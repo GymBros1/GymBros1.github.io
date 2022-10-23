@@ -1,0 +1,15 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.jumbotron   {
+    color: white;
+    padding: 25px;
+    background-color: gray;
+
+    margin-bottom: 50px;
+}
