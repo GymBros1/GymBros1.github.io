@@ -15,7 +15,7 @@ pamirhabib, Dac-cm, angusleung100, Troll411, canadiancakes
 
 ### Slogan
 
-Share your drive
+Share your drive.
 
 ### Product Name
 
@@ -23,4 +23,4 @@ Gym Bros
 
 ### Product Description
 
-Gym Bros is a fitness social media app that allows users to connect with people that have similar workout routines and goals. It is meant to help veteran gym-goers rediscover the joy of working out and to help newcomers get into the gym life.
+Gym Bros is a fitness social media app that allows users to connect with people that have similar workout routines and goals. It is meant to help veteran gym-goers rediscover the joy of working out and to help newcomers get into the gym life. The app consists of mathing people with other people depending on your workour routine, schedules, date and time, and so on.
