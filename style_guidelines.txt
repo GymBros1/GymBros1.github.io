@@ -1,0 +1,9 @@
+Colors:
+    White: #FFFFFF
+    Blue: #007BFF
+    Light Gray: #F8F9FA
+    Gray: #6C757D
+    Gray: #4A4A4B
+    Gray: #808080
+    Black: #000000
+
