@@ -7,6 +7,19 @@
     margin-bottom: 50px;
 }
 
+.nav-item{
+    display : inline-block;
+    border : 1px solid black;
+    padding : 3px 5px;
+    box-shadow : 2px 2px 5px black;
+    border-radius : 10px;
+}
+.nav-item:hover{
+    border-radius: 30px;
+    box-shadow : 5px 5px 5px black;
+    transition : 300ms;
+}
+
 .jumbotron   {
     color: white;
     padding: 25px;
@@ -14,3 +27,4 @@
 
     margin-bottom: 50px;
 }
+
