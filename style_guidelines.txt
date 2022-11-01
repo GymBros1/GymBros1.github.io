@@ -1,4 +1,5 @@
 Colors:
+-------
     White: #FFFFFF
     Blue: #007BFF
     Light Gray: #F8F9FA
@@ -7,3 +8,18 @@ Colors:
     Gray: #808080
     Black: #000000
 
+HTML Guidelines:
+----------------
+- Tabs, not spaces
+- Indents done for each different HTML element with nested ones indented by a tab
+
+CSS Guidelines:
+---------------
+- Never edit anything in Bootstrap base files. Override with files
+- Do not put bracket on next line after HTML element when customizing css
+- Short CSS customization is allowed in HTML file. Longer customizations must be done in CSS files
+- Additional CSS guidelines for color schemes and such can be found on Bootstrap documentation: https://getbootstrap.com/
+
+JS Guidelines:
+--------------
+- Functions must be written into JS files
