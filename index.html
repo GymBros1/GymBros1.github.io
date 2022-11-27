@@ -102,8 +102,21 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     
+        <script type="text/javascript">
+            ranQuote=function(){
+                var quotes=new Array();
+                quotes[0]="The power of friendship stems from drive.";
+                quotes[1]="The ultimate gain is friendship.";
+                quotes[2]="Get muscle, get bros.";
+                quotes[3]="Make yourself stronger than your excuses.";
+                quotes[4]="Share your drive.";
+                quotes[5]="The price of excellence is discipline.";
+                var rand = Math.floor(Math.random()*6);
+                document.write(quotes[rand]);
+            }
+        </script>
         <h1></h1>
-        <i><marquee font-family="Bahnschrift" direction="right">Share your drive.</marquee></i>
+        <i><marquee font-family="Bahnschrift" direction="right"><script type="text/javascript">ranQuote();</script></marquee></i>
     </body>
 
 </html>
