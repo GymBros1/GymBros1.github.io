@@ -105,7 +105,7 @@
                                         </ul>
 
                                     </p>
-                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();">Pre-Register</button>
+                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();" id="bu1">Pre-Register</button>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                         </ul>
 
                                     </p>
-                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();">Pre-Register</button>
+                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();" id="bu2">Pre-Register</button>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                         </ul>
 
                                     </p>
-                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();">Pre-Register</button>
+                                    <button type="button"  class="btn btn-primary mt-auto" onClick="OpenPopupWindow();" id="bu3">Pre-Register</button>
                                     <!-- <a href="#" class="btn btn-primary mt-auto">Pre-Register</a> -->
                                 </div>
                             </div>
@@ -154,11 +154,29 @@
 
         <script type="text/Javascript">
             function OpenPopupWindow()
-         {
-          var url = "pop.html";
-         myRef = window.open(url ,'mywin','left=20,top=20,width=1000,height=50,toolbar=1,resizable=0');
-         myRef.focus()
-         }
+            {
+                var url = "pop.html";
+                myRef = window.open(url ,'mywin','left=20,top=20,width=1000,height=50,toolbar=1,resizable=0');
+                myRef.focus()
+            }
+            changeButton=function(){
+                var st = document.getElementById("bu1");
+                st.textContent = "Coming 2023!";
+            }
+            var str = document.getElementById("bu1");
+            str.addEventListener("click", changeButton);
+            changeButton=function(){
+                var st = document.getElementById("bu2");
+                st.textContent = "Coming 2023!";
+            }
+            var str = document.getElementById("bu2");
+            str.addEventListener("click", changeButton);
+            changeButton=function(){
+                var st = document.getElementById("bu3");
+                st.textContent = "Coming 2023!";
+            }
+            var str = document.getElementById("bu3");
+            str.addEventListener("click", changeButton);
         </script>
 
 
